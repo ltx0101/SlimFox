@@ -93,9 +93,3 @@ To resolve this, follow these steps:
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
    ```
 </details>
-
----
-
-### Privacy and Security
-
-This script is designed to enhance privacy and security by disabling certain tracking and data-collection features of Google Chrome. Use it to lock down Chrome's settings for a more private browsing experience. Be cautious when running this on a shared machine or environment, as it modifies system-wide registry keys.

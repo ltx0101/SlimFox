@@ -1,5 +1,10 @@
-# SlimFox
+<div align="center">
 
+# SlimFox
+<img src="https://github.com/user-attachments/assets/5b3678bb-be18-49e1-bfb9-86a5794ae090" width="220" height="220">
+</div>
+
+---
 
 ## SlimFox
 A PowerShell script designed to modify Mozilla Firefox policies on Windows, optimizing privacy and performance by disabling telemetry, Pocket, Firefox accounts, and other unwanted features.

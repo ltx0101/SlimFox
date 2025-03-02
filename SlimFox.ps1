@@ -82,7 +82,7 @@ foreach ($policy in $defaultPolicies.Keys) {
 
 $form = New-Object System.Windows.Forms.Form
 $form.Text = "                                                        SlimFox"
-$form.Size = New-Object System.Drawing.Size(600, 950)  # Increased width to accommodate two columns
+$form.Size = New-Object System.Drawing.Size(600, 950)
 $form.StartPosition = "CenterScreen"
 $form.ForeColor = [System.Drawing.Color]::White
 $form.BackColor = [System.Drawing.Color]::FromArgb(255, 25, 25, 25)
@@ -157,7 +157,7 @@ $settings = @(
 
 $y = 20
 $xLeft = 30
-$xRight = 350  # Second column starts here
+$xRight = 350
 
 for ($i = 0; $i -lt $settings.Length; $i++) {
     $setting = $settings[$i]
@@ -168,12 +168,11 @@ for ($i = 0; $i -lt $settings.Length; $i++) {
     $checkbox.Font = New-Object System.Drawing.Font("Segoe UI Emoji", 10, [System.Drawing.FontStyle]::Regular)
     $checkbox.FlatStyle = [System.Windows.Forms.FlatStyle]::Flat
 
-    # Alternate between left and right columns
     if ($i % 2 -eq 0) {
         $checkbox.Location = New-Object System.Drawing.Point($xLeft, $y)
     } else {
         $checkbox.Location = New-Object System.Drawing.Point($xRight, $y)
-        $y += 27  # Move to the next row after placing a checkbox in the right column
+        $y += 27
     }
 
     $checkboxes += $checkbox

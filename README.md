@@ -55,6 +55,138 @@ A PowerShell script designed to modify Mozilla Firefox policies on Windows, opti
 - **Disable Hardware Acceleration**  
   Forces Firefox to use software rendering.
 
+- **DisablePocketSponsoredStories**  
+  Removes sponsored stories from the Pocket recommendations.
+
+- **EnableTrackingProtection**  
+  Enables Firefox’s built-in tracking protection.
+
+- **DisableDefaultBrowserAgent**  
+  Prevents Firefox from running the default browser agent.
+
+- **DisableAutoUpdate**  
+  Stops Firefox from updating automatically.
+
+- **DisableAppUpdate**  
+  Disables updates for the Firefox application.
+
+- **DisableProfileImport**  
+  Blocks the ability to import profiles from other browsers.
+
+- **DisableDeveloperTools**  
+  Restricts access to Firefox's built-in developer tools.
+
+- **DisableSafeMode**  
+  Prevents Firefox from restarting in Safe Mode.
+
+
+
+- **DisablePrivateBrowsing**  
+  Disables the ability to open private browsing windows.
+
+
+
+- **DisablePocketRecommendations**  
+  Removes article recommendations from Pocket.
+
+
+
+- **DisableScreenshots**  
+  Disables the built-in screenshot tool.
+
+
+
+- **DisableSSL3**  
+  Disables the outdated SSL 3.0 protocol for security.
+
+
+
+- **DisableTLS1**  
+  Disables the outdated TLS 1.0 protocol for security.
+
+
+
+- **DisableTLS1.1**  
+  Disables the outdated TLS 1.1 protocol for security.
+
+
+- **EnableHTTPSOnlyMode**  
+  Forces all connections to use HTTPS where possible.
+
+
+- **DisablePasswordManager**  
+  Prevents Firefox from saving passwords.
+
+
+- **DisableMasterPassword**  
+  Disables the use of a master password for saved credentials.
+
+
+- **DisableFormHistory**  
+  Prevents Firefox from storing form and search history.
+
+
+- **DisableCookies**  
+  Blocks all cookies.
+
+
+- **DisableThirdPartyCookies**  
+  Blocks only third-party cookies for better privacy.
+
+
+- **DisableWebGL**  
+  Disables WebGL to prevent potential security risks.
+
+
+- **DisableIPv6**  
+  Disables IPv6 networking.
+
+
+- **DisableDNSOverHTTPS**  
+  Prevents Firefox from using DNS over HTTPS.
+
+
+- **DisableCache**  
+  Disables all caching, including disk, memory, and predictive network actions.
+
+
+- **DisableDiskCache**  
+  Prevents Firefox from storing cache on disk.
+
+
+- **DisableMemoryCache**  
+  Prevents Firefox from using memory to cache pages.
+
+
+- **DisablePredictiveNetworkActions**  
+  Stops Firefox from predicting and preloading network actions.
+
+
+- **DisableAsyncPanZoom**  
+  Disables asynchronous pan and zoom.
+
+
+- **DisableWelcomePage**  
+  Prevents Firefox from showing the welcome page on first launch.
+
+
+- **DisableNewTabPage**  
+  Removes Firefox’s default new tab page.
+
+
+- **DisableBookmarksToolbar**  
+  Hides the bookmarks toolbar.
+
+
+- **DisableToolbarCustomization**  
+  Restricts changes to the browser’s toolbar layout.
+
+
+- ****  
+  
+
+
+
 </details>
 
 ---

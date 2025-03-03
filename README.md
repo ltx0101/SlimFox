@@ -182,9 +182,63 @@ A PowerShell script designed to modify Mozilla Firefox policies on Windows, opti
   Restricts changes to the browser’s toolbar layout.
 
 
-- ****  
-  
+- **DisableAddonManager**  
+  Blocks access to the Add-ons Manager.
 
+- **DisableExtensions**  
+  Prevents installation of add-ons.
+
+
+- **DisableThemes**  
+  Disables theme customization.
+
+
+- **DisableFullScreenWarning**  
+  Removes the warning when entering full-screen mode.
+
+
+- **BlockAboutConfig**  
+  Prevents access to Firefox’s configuration settings.
+
+
+- **BlockAboutSupport**  
+  Blocks access to troubleshooting information.
+
+
+- **BlockAboutAddons**  
+  Prevents access to the add-ons page.
+
+
+- **BlockAboutProfiles**  
+  Blocks access to profile management.
+
+
+- **BlockAboutLogins**  
+  Prevents access to saved logins and passwords.
+
+
+- **DisableJIT**  
+  Disables JavaScript Just-In-Time compilation for security.
+
+
+- **DisableE10S**  
+  Disables Firefox’s multi-process architecture.
+
+
+- **DisableGPUProcess**  
+  Turns off hardware-accelerated GPU processing.
+
+
+- **DisableRDDProcess**  
+  Disables the Remote Data Decoder process.
+
+
+- **DisableSocketProcess**  
+  Prevents Firefox from using a separate process for networking.
+
+
+- **DisableContentProcessLimit**  
+  Limits the number of content processes Firefox can use.
 
 
 </details>

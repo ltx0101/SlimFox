@@ -55,189 +55,145 @@ A PowerShell script designed to modify Mozilla Firefox policies on Windows, opti
 - **Disable Hardware Acceleration**  
   Forces Firefox to use software rendering.
 
-- **DisablePocketSponsoredStories**  
+- **Disabl ePocket Sponsored Stories**  
   Removes sponsored stories from the Pocket recommendations.
 
-- **EnableTrackingProtection**  
+- **Enable Tracking Protection**  
   Enables Firefox’s built-in tracking protection.
 
-- **DisableDefaultBrowserAgent**  
+- **Disable Default Browser Agent**  
   Prevents Firefox from running the default browser agent.
 
-- **DisableAutoUpdate**  
+- **Disable Auto Update**  
   Stops Firefox from updating automatically.
 
-- **DisableAppUpdate**  
+- **Disable App Update**  
   Disables updates for the Firefox application.
 
-- **DisableProfileImport**  
+- **Disable Profile Import**  
   Blocks the ability to import profiles from other browsers.
 
-- **DisableDeveloperTools**  
+- **Disable Developer Tools**  
   Restricts access to Firefox's built-in developer tools.
 
-- **DisableSafeMode**  
+- **Disable Safe Mode**  
   Prevents Firefox from restarting in Safe Mode.
 
-
-
-- **DisablePrivateBrowsing**  
+- **Disable Private Browsing**  
   Disables the ability to open private browsing windows.
 
-
-
-- **DisablePocketRecommendations**  
+- **Disable Pocket Recommendations**  
   Removes article recommendations from Pocket.
 
-
-
-- **DisableScreenshots**  
+- **Disable Screenshots**  
   Disables the built-in screenshot tool.
 
-
-
-- **DisableSSL3**  
+- **Disable SSL3**  
   Disables the outdated SSL 3.0 protocol for security.
 
-
-
-- **DisableTLS1**  
+- **Disable TLS1**  
   Disables the outdated TLS 1.0 protocol for security.
 
-
-
-- **DisableTLS1.1**  
+- **Disable TLS1.1**  
   Disables the outdated TLS 1.1 protocol for security.
 
-
-- **EnableHTTPSOnlyMode**  
+- **Enable HTTPS Only Mode**  
   Forces all connections to use HTTPS where possible.
 
-
-- **DisablePasswordManager**  
+- **Disable Password Manager**  
   Prevents Firefox from saving passwords.
 
-
-- **DisableMasterPassword**  
+- **Disable Master Password**  
   Disables the use of a master password for saved credentials.
 
-
-- **DisableFormHistory**  
+- **Disable Form History**  
   Prevents Firefox from storing form and search history.
 
-
-- **DisableCookies**  
+- **Disable Cookies**  
   Blocks all cookies.
 
-
-- **DisableThirdPartyCookies**  
+- **Disable Third Party Cookies**  
   Blocks only third-party cookies for better privacy.
 
-
-- **DisableWebGL**  
+- **Disable WebGL**  
   Disables WebGL to prevent potential security risks.
 
-
-- **DisableIPv6**  
+- **Disable IPv6**  
   Disables IPv6 networking.
 
-
-- **DisableDNSOverHTTPS**  
+- **Disable DNS Over HTTPS**  
   Prevents Firefox from using DNS over HTTPS.
 
-
-- **DisableCache**  
+- **Disable Cache**  
   Disables all caching, including disk, memory, and predictive network actions.
 
-
-- **DisableDiskCache**  
+- **Disable Disk Cache**  
   Prevents Firefox from storing cache on disk.
 
-
-- **DisableMemoryCache**  
+- **Disable MemoryCache**  
   Prevents Firefox from using memory to cache pages.
 
-
-- **DisablePredictiveNetworkActions**  
+- **Disable Predictive Network Actions**  
   Stops Firefox from predicting and preloading network actions.
 
-
-- **DisableAsyncPanZoom**  
+- **Disable Async Pan Zoom**  
   Disables asynchronous pan and zoom.
 
-
-- **DisableWelcomePage**  
+- **Disable Welcome Page**  
   Prevents Firefox from showing the welcome page on first launch.
 
-
-- **DisableNewTabPage**  
+- **Disable New Tab Page**  
   Removes Firefox’s default new tab page.
 
-
-- **DisableBookmarksToolbar**  
+- **Disable Bookmarks Toolbar**  
   Hides the bookmarks toolbar.
 
-
-- **DisableToolbarCustomization**  
+- **Disable Toolbar Customization**  
   Restricts changes to the browser’s toolbar layout.
 
-
-- **DisableAddonManager**  
+- **Disable Addon Manager**  
   Blocks access to the Add-ons Manager.
 
-- **DisableExtensions**  
+- **Disable Extensions**  
   Prevents installation of add-ons.
 
-
-- **DisableThemes**  
+- **Disable Themes**  
   Disables theme customization.
 
-
-- **DisableFullScreenWarning**  
+- **Disable Full Screen Warning**  
   Removes the warning when entering full-screen mode.
 
-
-- **BlockAboutConfig**  
+- **Block About Config**  
   Prevents access to Firefox’s configuration settings.
 
-
-- **BlockAboutSupport**  
+- **Block About Support**  
   Blocks access to troubleshooting information.
 
-
-- **BlockAboutAddons**  
+- **Block About Addons**  
   Prevents access to the add-ons page.
 
-
-- **BlockAboutProfiles**  
+- **Block About Profiles**  
   Blocks access to profile management.
 
-
-- **BlockAboutLogins**  
+- **Block About Logins**  
   Prevents access to saved logins and passwords.
 
-
-- **DisableJIT**  
+- **Disable JIT**  
   Disables JavaScript Just-In-Time compilation for security.
 
-
-- **DisableE10S**  
+- **Disable E10S**  
   Disables Firefox’s multi-process architecture.
 
-
-- **DisableGPUProcess**  
+- **Disable GPU Process**  
   Turns off hardware-accelerated GPU processing.
 
-
-- **DisableRDDProcess**  
+- **Disable RDD Process**  
   Disables the Remote Data Decoder process.
 
-
-- **DisableSocketProcess**  
+- **Disable Socket Process**  
   Prevents Firefox from using a separate process for networking.
 
-
-- **DisableContentProcessLimit**  
+- **Disable Content Process Limit**  
   Limits the number of content processes Firefox can use.
 
 
